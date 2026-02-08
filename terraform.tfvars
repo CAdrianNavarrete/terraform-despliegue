@@ -5,11 +5,10 @@ project     = "navarrete"
 environment = "dev"
 
 container_image = "docker.io/cadriannavarrete/navarrete-hola:1.0"
-container_port  = 80
+container_port  = 8080
 
 cpu    = 0.25
 memory = "0.5Gi"
-
 min_replicas = 1
 max_replicas = 5
 
